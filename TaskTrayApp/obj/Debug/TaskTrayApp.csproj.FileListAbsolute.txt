@@ -1,0 +1,42 @@
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kanac.exe.config
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTrayApp.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTrayApp.MainForm.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTrayApp.Properties.Resources.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTrayApp.Properties.Resources.ja.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTrayApp.csproj.GenerateResource.Cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kanac.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kanac.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\ja\Kanac.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\ja\Kanac.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\Kanac.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\Kanac.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\bin\Debug\Kanac.exe.config
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\bin\Debug\Kanac.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\bin\Debug\Kanac.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\bin\Debug\ja\Kanac.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\TaskTrayApp.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\TaskTrayApp.MainForm.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\TaskTrayApp.Properties.Resources.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\TaskTrayApp.Properties.Resources.ja.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\TaskTrayApp.csproj.GenerateResource.Cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\ja\Kanac.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\Kanac.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTrayApp\obj\Debug\Kanac.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\bin\Debug\Kanac.exe.config
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\bin\Debug\Kanac.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\bin\Debug\Kanac.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\bin\Debug\ja\Kanac.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\TaskTrayApp.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\TaskTrayApp.MainForm.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\TaskTrayApp.Properties.Resources.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\TaskTrayApp.Properties.Resources.ja.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\TaskTrayApp.csproj.GenerateResource.Cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\ja\Kanac.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\Kanac.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\TaskTrayApp\obj\Debug\Kanac.pdb

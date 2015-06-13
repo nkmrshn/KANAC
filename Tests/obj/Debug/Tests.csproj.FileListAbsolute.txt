@@ -1,0 +1,28 @@
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\bin\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\bin\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\obj\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Tests\obj\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\bin\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\bin\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\obj\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Araic Numerals via Clipboard\Tests\obj\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\bin\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\bin\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\obj\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Tests\obj\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\bin\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\bin\Debug\Tests.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\obj\Debug\Tests.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Tests\obj\Debug\Tests.pdb

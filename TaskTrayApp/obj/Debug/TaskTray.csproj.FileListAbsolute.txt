@@ -1,0 +1,14 @@
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kanc.exe.config
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kanc.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kanc.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\ja\Kanc.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTray.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTray.MainForm.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTray.Properties.Resources.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTray.Properties.Resources.ja.resources
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\TaskTray.csproj.GenerateResource.Cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\ja\Kanc.resources.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\Kanc.exe
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\TaskTray\obj\Debug\Kanc.pdb

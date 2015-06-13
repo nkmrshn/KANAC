@@ -1,0 +1,13 @@
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Kansuji\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Kansuji\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Kansuji\obj\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji String Extension\Kansuji\obj\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Kansuji\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Kansuji\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Kansuji\obj\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Kansuji\obj\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\Kansuji To Arabic Numerals via Clipboard\Kansuji\obj\Debug\Kansuji.csprojResolveAssemblyReference.cache
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Kansuji\bin\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Kansuji\bin\Debug\Kansuji.pdb
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Kansuji\obj\Debug\Kansuji.dll
+C:\Users\nkmrshn\Documents\Visual Studio 2013\Projects\KANAC\Kansuji\obj\Debug\Kansuji.pdb
