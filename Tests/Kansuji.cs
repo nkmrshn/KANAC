@@ -46,6 +46,7 @@ namespace Tests
 
             Assert.AreEqual("123056", "壱十弐萬参千伍拾六".ReplaceKansujiToNumber());
             Assert.AreEqual("200020003000300040", "廿京卄兆卅億丗万卌".ReplaceKansujiToNumber());
+            Assert.AreEqual("35000000000000000ジンバブエドル", "３京５千兆ジンバブエドル".ReplaceKansujiToNumber());
 
             Assert.AreEqual("10", "十".ReplaceKansujiToNumber());
             Assert.AreEqual("100", "百".ReplaceKansujiToNumber());

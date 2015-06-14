@@ -145,11 +145,6 @@
             "AssemblyAsmDisplayName" = "8:Kansuji, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0A47064585C24EA06D04A2BAFA56C1D3"
-                    {
-                    "Name" = "8:Kansuji.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Kansuji.dll"
             "TargetName" = "8:"
@@ -234,15 +229,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:KANAC - Kansuji To Arabic Numerals via Clipboard"
-        "ProductCode" = "8:{FEF83B26-F9C7-4F12-AF3C-B821F4471F6C}"
-        "PackageCode" = "8:{57C07372-8718-4211-B305-916F3A34094C}"
+        "ProductCode" = "8:{B8A5D370-8905-4DDE-BF88-57806E405AFA}"
+        "PackageCode" = "8:{FA6A7DCF-3D60-4BBF-9273-BF64E28B2BD7}"
         "UpgradeCode" = "8:{BECB4A68-B191-4E79-ACB9-ABCF17CC2362}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:nkmrshn"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://nkmrshn.com/"

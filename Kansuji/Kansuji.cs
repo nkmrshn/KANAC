@@ -29,6 +29,7 @@ namespace Kansuji
         /// <param name="str">置換する文字列</param>
         public void ReplaceKansujiToNumber(ref StringBuilder sb)
         {
+            ReplaceWideNumber(ref sb);
             ReplaceDaiji(ref sb);
             ReplaceTaisu(ref sb);
             ReplaceCompund(ref sb);
@@ -253,6 +254,25 @@ namespace Kansuji
                 .Replace("7", "７")
                 .Replace("8", "８")
                 .Replace("9", "９");
+        }
+
+        /// <summary>
+        /// 全角数字を半角数字に置換します。
+        /// </summary>
+        /// <param name="sb">置換する文字列</param>
+        private void ReplaceWideNumber(ref StringBuilder sb)
+        {
+            sb
+                .Replace("０", "0")
+                .Replace("１", "1")
+                .Replace("２", "2")
+                .Replace("３", "3")
+                .Replace("４", "4")
+                .Replace("５", "5")
+                .Replace("６", "6")
+                .Replace("７", "7")
+                .Replace("８", "8")
+                .Replace("９", "9");
         }
     }
 }
