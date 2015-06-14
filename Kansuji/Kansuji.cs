@@ -20,7 +20,7 @@ namespace Kansuji
 
         private string basePattern = "十|百|千|万|億|兆|京|垓|𥝱|穣|溝|澗|正|載|極|恒河沙|阿僧祇|那由他|不可思議|無量大数";
         private string extractPattern = @"(\d|十|百|千|万)?(\d|{0})*(!?\d|{0})";
-        private string parsePattern = @"\d?({0})?";
+        private string parsePattern = @"(\d+|\d?)({0})?";
         private string detectPattern = @"({0})";
 
         /// <summary>
@@ -117,15 +117,25 @@ namespace Kansuji
 
                     if (char.IsDigit(value[0]))
                     {
-                        number = int.Parse(value[0].ToString());
-                        tmp = value.Substring(1);
+                        int digitLength = 0;
+
+                        foreach(char c in value)
+                        {
+                            if(char.IsDigit(c))
+                            {
+                                digitLength++;
+                            }
+                        }
+
+                        number = int.Parse(value.Substring(0, digitLength));
+                        tmp = value.Substring(digitLength);
                     }
 
                     if (scales.ContainsKey(tmp))
                     {
                         scale = scales[tmp];
                     }
-                    else
+                    else if(!string.IsNullOrEmpty(tmp))
                     {
                         largeNumeral = largeNumerals[tmp];
                     }
