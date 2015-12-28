@@ -111,23 +111,6 @@ namespace Tests
         }
 
         [TestMethod]
-        public void TestReplaceKansujiToWideNumerals()
-        {
-            Assert.AreEqual("かきくけこ", "かきくけこ".ReplaceKansujiToWideNumber());
-
-            Assert.AreEqual("０", "〇".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("１", "一".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("２", "二".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("３", "三".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("４", "四".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("５", "五".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("６", "六".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("７", "七".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("８", "八".ReplaceKansujiToWideNumber());
-            Assert.AreEqual("９", "九".ReplaceKansujiToWideNumber());
-        }
-
-        [TestMethod]
         public void TestReplaceKansujiToNumeralsWithWideOption()
         {
             Assert.AreNotEqual("０", "〇".ReplaceKansujiToNumber());

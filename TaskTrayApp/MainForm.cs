@@ -15,7 +15,9 @@ namespace TaskTrayApp
         private ToolStripRadioButtonMenuItem deactivate = new ToolStripRadioButtonMenuItem();
         private ToolStripRadioButtonMenuItem normal = new ToolStripRadioButtonMenuItem();
         private ToolStripRadioButtonMenuItem wide = new ToolStripRadioButtonMenuItem();
-        private ToolStripSeparator separator = new ToolStripSeparator();
+        private ToolStripMenuItem commaSeparated = new ToolStripMenuItem();
+        private ToolStripSeparator mainSeparator = new ToolStripSeparator();
+        private ToolStripSeparator activateItemsSeparator = new ToolStripSeparator();
 
         public MainForm()
         {
@@ -28,26 +30,31 @@ namespace TaskTrayApp
             WindowState = FormWindowState.Minimized;
 
             activate.Text = Resources.Activate;
-            activate.Checked = Properties.Settings.Default.Activated;
+            activate.Checked = Settings.Default.Activated;
             activate.CheckedChanged += activate_CheckedChanged;
 
             deactivate.Text = Resources.Deactivate;
-            deactivate.Checked = !Properties.Settings.Default.Activated;
+            deactivate.Checked = !Settings.Default.Activated;
             deactivate.CheckedChanged += deactivate_CheckedChanged;
 
             normal.Text = Resources.Normal;
-            normal.Checked = !Properties.Settings.Default.WideCharacter;
+            normal.Checked = !Settings.Default.WideCharacter;
             normal.CheckedChanged += normal_CheckedChanged;
 
             wide.Text = Resources.Wide;
-            wide.Checked = Properties.Settings.Default.WideCharacter;
+            wide.Checked = Settings.Default.WideCharacter;
             wide.CheckedChanged += wide_CheckedChanged;
+
+            commaSeparated.Text = Resources.CommaSeparated;
+            commaSeparated.Checked = Settings.Default.CommaSeparated;
+            commaSeparated.CheckOnClick = true;
+            commaSeparated.CheckedChanged += commaSeparated_CheckedChanged;
 
             exit.Text = Resources.Exit;
             exit.Click += exit_Click;
 
-            activate.DropDownItems.AddRange(new ToolStripItem[] { normal, wide });
-            menu.Items.AddRange(new ToolStripItem[] { activate, deactivate, separator, exit });
+            activate.DropDownItems.AddRange(new ToolStripItem[] { normal, wide, activateItemsSeparator, commaSeparated });
+            menu.Items.AddRange(new ToolStripItem[] { activate, deactivate, mainSeparator, exit });
             menu.Opening += menu_Opening;
             notifyIcon.ContextMenuStrip = menu;
             notifyIcon.Text = Resources.NofityIconText;
@@ -69,8 +76,8 @@ namespace TaskTrayApp
             if (activate.Checked)
             {
                 notifyIcon.Icon = Resources.ActivatedIcon;
-                Properties.Settings.Default.Activated = true;
-                Properties.Settings.Default.Save();
+                Settings.Default.Activated = true;
+                Settings.Default.Save();
             }
         }
 
@@ -79,8 +86,8 @@ namespace TaskTrayApp
             if (deactivate.Checked)
             {
                 notifyIcon.Icon = Resources.DeactivatedIcon;
-                Properties.Settings.Default.Activated = false;
-                Properties.Settings.Default.Save();
+                Settings.Default.Activated = false;
+                Settings.Default.Save();
             }
         }
 
@@ -88,8 +95,8 @@ namespace TaskTrayApp
         {
             if (normal.Checked)
             {
-                Properties.Settings.Default.WideCharacter = false;
-                Properties.Settings.Default.Save();
+                Settings.Default.WideCharacter = false;
+                Settings.Default.Save();
             }
         }
 
@@ -97,16 +104,22 @@ namespace TaskTrayApp
         {
             if (wide.Checked)
             {
-                Properties.Settings.Default.WideCharacter = true;
-                Properties.Settings.Default.Save();
+                Settings.Default.WideCharacter = true;
+                Settings.Default.Save();
             }
+        }
+
+        void commaSeparated_CheckedChanged(object sender, EventArgs e)
+        {
+            Settings.Default.CommaSeparated = commaSeparated.Checked;
+            Settings.Default.Save();
         }
 
         private void viewer_ClipboardHandler(object sender, ClipboardEventArgs ev)
         {
             if (activate.Checked)
             {
-                Clipboard.SetDataObject(ev.Text.ReplaceKansujiToNumber(wide.Checked), true);
+                Clipboard.SetDataObject(ev.Text.ReplaceKansujiToNumber(wide.Checked, commaSeparated.Checked), true);
             }
         }
 

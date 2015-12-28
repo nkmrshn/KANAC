@@ -124,6 +124,9 @@
   <data name="ActivatedIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Activated.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CommaSeparated" xml:space="preserve">
+    <value>カンマ区切り</value>
+  </data>
   <data name="Deactivate" xml:space="preserve">
     <value>無効</value>
   </data>

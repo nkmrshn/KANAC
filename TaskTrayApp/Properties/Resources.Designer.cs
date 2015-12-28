@@ -80,6 +80,15 @@ namespace TaskTrayApp.Properties {
         }
         
         /// <summary>
+        ///   Comma Separated に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string CommaSeparated {
+            get {
+                return ResourceManager.GetString("CommaSeparated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Deactivate に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Deactivate {

@@ -46,5 +46,17 @@ namespace TaskTrayApp.Properties {
                 this["WideCharacter"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CommaSeparated {
+            get {
+                return ((bool)(this["CommaSeparated"]));
+            }
+            set {
+                this["CommaSeparated"] = value;
+            }
+        }
     }
 }

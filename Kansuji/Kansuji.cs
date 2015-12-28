@@ -27,7 +27,7 @@ namespace Kansuji
         /// 漢数字を半角数字に置換します。
         /// </summary>
         /// <param name="str">置換する文字列</param>
-        public void ReplaceKansujiToNumber(ref StringBuilder sb)
+        public void ReplaceKansujiToNumber(ref StringBuilder sb, bool wide, bool commaSeparated)
         {
             ReplaceWideNumber(ref sb);
             ReplaceDaiji(ref sb);
@@ -35,35 +35,33 @@ namespace Kansuji
             ReplaceCompund(ref sb);
             ReplaceNumber(ref sb);
 
-            if (!HasScaleOrTaisu(sb.ToString()))
+            if (HasScaleOrTaisu(sb.ToString()))
             {
-                return;
-            }
-            
-            IEnumerable<string> matches = Regex.Matches(sb.ToString(), string.Format(extractPattern, basePattern))
-                .OfType<Match>().Select(m => m.Groups[0].Value).Distinct();
+                IEnumerable<string> matches = Regex.Matches(sb.ToString(), string.Format(extractPattern, basePattern))
+                    .OfType<Match>().Select(m => m.Groups[0].Value).Distinct();
 
-            foreach (string match in matches)
-            {
-                string result = ConvertKansujiToNumber(match);
-
-                if(result.Length > 1 && result.IndexOf('0') == 0)
+                foreach (string match in matches)
                 {
-                    continue;
+                    string result = ConvertKansujiToNumber(match);
+
+                    if (result.Length > 1 && result.IndexOf('0') == 0)
+                    {
+                        continue;
+                    }
+
+                    sb.Replace(match, result);
                 }
-
-                sb.Replace(match, result);
             }
-        }
 
-        /// <summary>
-        /// 漢数字を全角数字に置換します。
-        /// </summary>
-        /// <param name="str">置換する文字列</param>
-        public void ReplaceKansujiToWideNumber(ref StringBuilder sb)
-        {
-            ReplaceKansujiToNumber(ref sb);
-            ReplaceToWideNumber(ref sb);
+            if(commaSeparated)
+            {
+
+            }
+
+            if(wide)
+            {
+                ReplaceToWideNumber(ref sb);
+            }
         }
 
         /// <summary>
@@ -263,7 +261,8 @@ namespace Kansuji
                 .Replace("6", "６")
                 .Replace("7", "７")
                 .Replace("8", "８")
-                .Replace("9", "９");
+                .Replace("9", "９")
+                .Replace(",", "，");
         }
 
         /// <summary>
